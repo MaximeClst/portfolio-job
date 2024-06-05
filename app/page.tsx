@@ -1,3 +1,4 @@
+import { Contact } from "./_components/Contact";
 import { Header } from "./_components/Header";
 import { Hero } from "./_components/Hero";
 import { Skill } from "./_components/Skill";
@@ -20,6 +21,10 @@ export default function Home() {
       <Spacing size="md" />
 
       <Skill />
+
+      <Spacing size="md" />
+
+      <Contact />
 
       <Spacing size="md" />
     </main>
