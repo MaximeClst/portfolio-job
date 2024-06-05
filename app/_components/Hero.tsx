@@ -6,7 +6,9 @@ export const Hero = () => {
   return (
     <Section className="flex max-lg:flex-col items-start gap-4">
       <div className="flex-[3] w-full flex flex-col gap-2">
-        <h2 className="font-caption text-5xl text-primary">Maxime CELESTE</h2>
+        <h2 className="font-caption font-bold text-5xl text-primary">
+          Maxime CELESTE
+        </h2>
         <h3 className="font-caption text-3xl">FrontEnd Developer</h3>
         <p>
           Développeur Front End Junior passionné par la création
