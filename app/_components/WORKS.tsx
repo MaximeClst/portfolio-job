@@ -24,7 +24,7 @@ export const WORKS: WorkProps[] = [
     title: "Learn-Do-Succeed",
     role: "Marketeur",
     date: "2019 - 2021",
-    url: "https://www.learn-do-succeed.com/",
+    url: "https://learn-dosucceed.com/",
   },
 ];
 type WorkProps = {
