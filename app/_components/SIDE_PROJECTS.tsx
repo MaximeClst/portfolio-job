@@ -1,4 +1,4 @@
-import { Cloudy, Laptop, LucideIcon } from "lucide-react";
+import { Binary, Cloudy, Laptop, LucideIcon, TimerReset } from "lucide-react";
 import Link from "next/link";
 
 export const SIDE_PROJECTS: SideProjectProps[] = [
@@ -16,16 +16,16 @@ export const SIDE_PROJECTS: SideProjectProps[] = [
     url: "https://github.com/MaximeClst/Refonte_siteAfpar",
   },
   {
-    Logo: Laptop,
-    title: "Landing Page Afpar",
-    description: "Création d'une landing page pour le site de l'Afpar",
-    url: "/",
+    Logo: Binary,
+    title: "Chinese Matrix",
+    description: "Fun project",
+    url: "https://github.com/MaximeClst/chinese-matrix",
   },
   {
-    Logo: Laptop,
-    title: "Landing Page Afpar",
-    description: "Création d'une landing page pour le site de l'Afpar",
-    url: "/",
+    Logo: TimerReset,
+    title: "New Year Countdown",
+    description: "Fun Project",
+    url: "https://github.com/MaximeClst/NewYear-Countdown",
   },
 ];
 type SideProjectProps = {
