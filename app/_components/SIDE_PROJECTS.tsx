@@ -1,4 +1,4 @@
-import { Binary, Cloudy, Laptop, LucideIcon, TimerReset } from "lucide-react";
+import { Handshake, Cloudy, Laptop, LucideIcon, Notebook } from "lucide-react";
 import Link from "next/link";
 
 export const SIDE_PROJECTS: SideProjectProps[] = [
@@ -16,16 +16,16 @@ export const SIDE_PROJECTS: SideProjectProps[] = [
     url: "https://github.com/MaximeClst/Refonte_siteAfpar",
   },
   {
-    Logo: Binary,
-    title: "Chinese Matrix",
-    description: "Fun project",
-    url: "https://github.com/MaximeClst/chinese-matrix",
+    Logo: Handshake,
+    title: "Find Your Dev",
+    description: "Trouver son nouveau partenaire de développement",
+    url: "https://find-your-developper.vercel.app",
   },
   {
-    Logo: TimerReset,
-    title: "New Year Countdown",
-    description: "Fun Project",
-    url: "https://github.com/MaximeClst/NewYear-Countdown",
+    Logo: Notebook,
+    title: "Task Trek",
+    description: "Application de création de notes",
+    url: "https://get-task-trek.vercel.app",
   },
 ];
 type SideProjectProps = {
