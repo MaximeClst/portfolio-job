@@ -1,4 +1,4 @@
-import { Cloudy, Handshake, LucideIcon, Notebook } from "lucide-react";
+import { Handshake, Cloudy, Laptop, LucideIcon, Notebook } from "lucide-react";
 import Link from "next/link";
 
 export const SIDE_PROJECTS: SideProjectProps[] = [
@@ -7,9 +7,14 @@ export const SIDE_PROJECTS: SideProjectProps[] = [
     title: "Weather-App",
     description:
       "Application de meteo permettant de connaitre le temps qui fait dans les pluis grandes villes du monde.",
-    url: "https://weather-app-three-gilt-82.vercel.app/",
+    url: "https://github.com/MaximeClst/Weather-App",
   },
-
+  {
+    Logo: Laptop,
+    title: "Landing Page Afpar",
+    description: "Création d'une landing page pour le site de l'Afpar",
+    url: "https://github.com/MaximeClst/Refonte_siteAfpar",
+  },
   {
     Logo: Handshake,
     title: "Find Your Dev",
