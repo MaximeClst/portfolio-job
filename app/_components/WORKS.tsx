@@ -1,25 +1,11 @@
-import { Building2, Globe, LucideIcon, Users } from "lucide-react";
+import { Globe, LucideIcon } from "lucide-react";
 import Link from "next/link";
 
 export const WORKS: WorkProps[] = [
   {
-    Logo: Building2,
-    title: "Site E-commerce",
-    description:
-      "Développement d'une plateforme e-commerce complète avec système de paiement intégré",
-    url: "https://example-client-1.com",
-  },
-  {
-    Logo: Users,
-    title: "Application CRM",
-    description:
-      "Système de gestion de la relation client pour une entreprise de services",
-    url: "https://example-client-2.com",
-  },
-  {
     Logo: Globe,
-    title: "Site Vitrine",
-    description: "Site web professionnel pour une agence de communication",
+    title: "Smart Power System",
+    description: "Site web de coaching sportif en ligne",
     url: "https://smart-power-system.fr/",
   },
 ];
