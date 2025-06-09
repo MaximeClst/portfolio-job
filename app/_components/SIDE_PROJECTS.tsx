@@ -1,4 +1,10 @@
-import { Cloudy, Handshake, LucideIcon, Notebook } from "lucide-react";
+import {
+  Cloudy,
+  Handshake,
+  LucideIcon,
+  Notebook,
+  Dumbbell,
+} from "lucide-react";
 import Link from "next/link";
 
 export const SIDE_PROJECTS: SideProjectProps[] = [

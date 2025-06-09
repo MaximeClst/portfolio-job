@@ -1,14 +1,15 @@
 /* eslint-disable @next/next/no-img-element */
 import { Card } from "@/components/ui/card";
 import { ContactCard } from "./ContactCard";
+import { EXPERIENCES, Experiences } from "./EXPERIENCES";
 import { SIDE_PROJECTS, SideProject } from "./SIDE_PROJECTS";
 import { Section } from "./Section";
-import { WORKS, Work } from "./WORKS";
+import { Work, WORKS } from "./WORKS";
 
 export const Status = () => {
   return (
     <Section className="flex max-md:flex-col items-start gap-4">
-      <div className="flex-[3] w-full">
+      <div className="flex-[3] w-full flex flex-col gap-4">
         <Card className="w-full p-4 flex flex-col gap-2">
           <p className="text-lg text-muted-foreground">Side, fun projects.</p>
           <div className="flex flex-col gap-4">
@@ -23,13 +24,27 @@ export const Status = () => {
             ))}
           </div>
         </Card>
+        <Card className="w-full p-4 flex flex-col gap-2">
+          <p className="text-lg text-muted-foreground">Work</p>
+          <div className="flex flex-col gap-4">
+            {WORKS.map((project, index) => (
+              <Work
+                key={index}
+                Logo={project.Logo}
+                title={project.title}
+                description={project.description}
+                url={project.url}
+              />
+            ))}
+          </div>
+        </Card>
       </div>
       <div className="flex-[2] w-full flex flex-col gap-4">
         <Card className="p-4 flex-1">
-          <p className="text-lg text-muted-foreground">Work</p>
+          <p className="text-lg text-muted-foreground">Experiences</p>
           <div className="flex flex-col gap-1">
-            {WORKS.map((work, index) => (
-              <Work
+            {EXPERIENCES.map((work, index) => (
+              <Experiences
                 key={index}
                 image={work.image}
                 title={work.title}
